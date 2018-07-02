@@ -1,0 +1,107 @@
+.sec{
+text-align: center;
+color: white;
+
+}
+h3{
+    text-align: center;
+    color: #945D8E;
+    font-family: 'Dancing Script', cursive;
+}
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #945D8E;
+}
+
+a:hover, a:active, a:focus {
+    color: #945D8E;
+    outline: none;
+    text-decoration: none;
+  }
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #945D8E;
+   
+  }  
+  @media (max-width: 768px) {
+    .back-to-top {
+      bottom: 15px;
+    }
+  }
+
+.back-to-top:focus {
+    background: #d1a8d3;
+    color: #fff;
+    outline: none;
+  }
+  
+.back-to-top:hover {
+    background: #945D8E;
+    color: #fff;
+  }
+    
+li a {
+    font-family: 'EB Garamond', serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+.title{
+    font-family: 'Dancing Script', cursive;
+color: white;
+}
+.des{
+    font-family: 'EB Garamond', serif;
+}
+.icon{
+     font-size:6em; 
+    color:white;
+    text-align: center;
+    animation: mymove 2s infinite linear alternate; 
+    animation: mymove 2s infinite linear alternate;
+    
+}
+
+
+@keyframes mymove {
+    to {transform: rotateY(40deg);}
+}
+.iconf{ 
+    font-size:2em; 
+    color:white;
+    text-align: center;
+}
+
+.image{
+    background-image: url("lab.png");
+      width: 1110px;
+      height: 350px;
+      margin:0;
+    }
+
+.box .icon i:before {
+       
+        background: linear-gradient(45deg,  #D09CCB 30% , #F9CCF0 70%);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      #preloader {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 999;
+        width: 30px;
+        height:30px;
+        overflow: visible;
+        background: #fff url("4.gif") no-repeat center center;
+      }
